@@ -5,6 +5,7 @@
 
 package org.lineageos.aperture.ui
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
@@ -21,6 +22,7 @@ import org.lineageos.aperture.R
 import org.lineageos.aperture.ext.*
 import org.lineageos.aperture.utils.Rotation
 
+@SuppressLint("PrivateResource")
 abstract class Slider @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {

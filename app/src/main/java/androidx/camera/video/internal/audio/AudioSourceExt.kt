@@ -5,5 +5,8 @@
 
 package androidx.camera.video.internal.audio
 
+import android.annotation.SuppressLint
+
 val AudioSource.muted
+    @SuppressLint("RestrictedApi")
     get() = mMuted
