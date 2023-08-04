@@ -79,8 +79,7 @@
              </string-array>
     -->
     <string-array name="config_logicalZoomRatios">
-         <item>0</item> <item>2.0</item> <item>2.0</item>
-         <item>0</item> <item>5.0</item> <item>5.0</item>
+        <!-- No configuration by default. -->
     </string-array>
 
     <!-- Whether we should use high resolution output size or not.
